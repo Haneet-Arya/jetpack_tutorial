@@ -13,9 +13,32 @@
         android:theme="@style/Theme.YTPhllipe"
         tools:targetApi="31">
         <activity
-            android:name=".StateControl"
+            android:name=".MusicKnob"
             android:exported="true"
-            android:label="@string/title_activity_state_control"
+            android:label="@string/title_activity_music_knob"
+            android:theme="@style/Theme.YTPhllipe" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CustomProgress"
+            android:exported="false"
+            android:label="@string/title_activity_custom_progress"
+            android:theme="@style/Theme.YTPhllipe"/>
+        <activity
+            android:name=".Anim"
+            android:exported="false"
+            android:label="@string/title_activity_anim"
+            android:theme="@style/Theme.YTPhllipe"/>
+        <activity
+            android:name=".ConstLayout"
+            android:exported="true"
+            android:label="@string/title_activity_const_layout"
             android:theme="@style/Theme.YTPhllipe">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,15 +47,30 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".EqRecyclerView"
+            android:exported="false"
+            android:label="@string/title_activity_eq_recycler_view"
+            android:theme="@style/Theme.YTPhllipe" />
+        <activity
+            android:name=".Component"
+            android:exported="false"
+            android:label="@string/title_activity_component"
+            android:theme="@style/Theme.YTPhllipe" />
+        <activity
+            android:name=".StateControl"
+            android:exported="false"
+            android:label="@string/title_activity_state_control"
+            android:theme="@style/Theme.YTPhllipe" />
+        <activity
             android:name=".TextStyle"
             android:exported="false"
             android:label="@string/title_activity_text_style"
-            android:theme="@style/Theme.YTPhllipe"/>
+            android:theme="@style/Theme.YTPhllipe" />
         <activity
             android:name=".ImageView"
             android:exported="false"
             android:label="@string/title_activity_image"
-            android:theme="@style/Theme.YTPhllipe"/>
+            android:theme="@style/Theme.YTPhllipe" />
         <activity
             android:name=".MainActivity"
             android:exported="false"

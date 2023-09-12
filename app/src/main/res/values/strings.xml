@@ -3,4 +3,10 @@
     <string name="title_activity_image">ImageActivity</string>
     <string name="title_activity_text_style">TextStyle</string>
     <string name="title_activity_state_control">StateControl</string>
+    <string name="title_activity_component">Component</string>
+    <string name="title_activity_eq_recycler_view">EqRecyclerView</string>
+    <string name="title_activity_const_layout">ConstLayout</string>
+    <string name="title_activity_anim">Anim</string>
+    <string name="title_activity_custom_progress">CustomProgress</string>
+    <string name="title_activity_music_knob">MusicKnob</string>
 </resources>
