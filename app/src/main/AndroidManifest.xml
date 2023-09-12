@@ -37,15 +37,9 @@
             android:theme="@style/Theme.YTPhllipe"/>
         <activity
             android:name=".ConstLayout"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/title_activity_const_layout"
-            android:theme="@style/Theme.YTPhllipe">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.YTPhllipe"/>
         <activity
             android:name=".EqRecyclerView"
             android:exported="false"
